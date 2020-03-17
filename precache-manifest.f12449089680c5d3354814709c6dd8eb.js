@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "07e91d93714d6f5a017ce6a8f1c95953",
+    "revision": "5972aeb9f2af2a5b596af94e80435c69",
     "url": "/ATTESTATION-DE-D-PLACEMENT-D-ROGATOIRE/index.html"
   },
   {
-    "revision": "a4a41b620328a1479b53",
-    "url": "/ATTESTATION-DE-D-PLACEMENT-D-ROGATOIRE/static/css/main.6f96dd25.chunk.css"
+    "revision": "246e96d081f1ab5f70fe",
+    "url": "/ATTESTATION-DE-D-PLACEMENT-D-ROGATOIRE/static/css/main.d9ac3645.chunk.css"
   },
   {
     "revision": "27566d82ca94108019b5",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ATTESTATION-DE-D-PLACEMENT-D-ROGATOIRE/static/js/2.8860c6a6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a4a41b620328a1479b53",
+    "revision": "246e96d081f1ab5f70fe",
     "url": "/ATTESTATION-DE-D-PLACEMENT-D-ROGATOIRE/static/js/main.7fa3f517.chunk.js"
   },
   {
