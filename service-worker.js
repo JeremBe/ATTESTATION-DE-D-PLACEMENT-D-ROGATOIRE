@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/JeremBe/ATTESTATION-DE-D-PLACEMENT-D-ROGATOIRE/precache-manifest.c8d53fe96c49eaf6d5b3292fd2404f11.js"
+  "/JeremBe/ATTESTATION-DE-D-PLACEMENT-D-ROGATOIRE/tree/gh-pages/precache-manifest.55d6d03af09fb4e0ba5a5dade55af9cd.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/JeremBe/ATTESTATION-DE-D-PLACEMENT-D-ROGATOIRE/index.html"), {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/JeremBe/ATTESTATION-DE-D-PLACEMENT-D-ROGATOIRE/tree/gh-pages/index.html"), {
   
   blacklist: [/^\/_/,/\/[^\/?]+\.[^\/]+$/],
 });
