@@ -1,24 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import "./App.css";
+import Page from "./components/page";
+import FormUser from "./components/form";
 
 function App() {
+  const [preview, setPreview] = useState(false);
+  const [form, setForm] = useState(false);
+
+  useEffect(() => {
+    if (localStorage.getItem("user")) {
+      let obj = JSON.parse(localStorage.getItem("user"));
+      setForm(obj);
+    } else
+      setForm({
+        name: "",
+        birthday: "",
+        address: "",
+        city: ""
+      });
+  }, []);
+
+  function handleform(form) {
+    setForm(form);
+    setPreview(true);
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {preview && form ? (
+        <Page form={form} />
+      ) : (
+        <FormUser form={form} handleform={handleform} />
+      )}
     </div>
   );
 }
