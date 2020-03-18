@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ATTESTATION-DE-D-PLACEMENT-D-ROGATOIRE/precache-manifest.fcb5365eef8d0d956516483aa4f7b85a.js"
+  "/ATTESTATION-DE-D-PLACEMENT-D-ROGATOIRE/precache-manifest.a9b82b5e279219cc07f40b1ae7291894.js"
 );
 
 self.addEventListener('message', (event) => {
